@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">pzsdk-android-sample</string>
+    <string name="facebook_app_id">568333576981940</string>
+    <string name="fb_login_protocol_scheme">fb568333576981940</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY" tools:ignore="ExtraTranslation">JSZ2p4S8QaD133FofxWHdHywQ</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET" tools:ignore="ExtraTranslation">fOXUsa2qP4Lg0MfqpMuRu4svBrC9TvL8ntLdmnsnRC061SUF6X</string>
+</resources>

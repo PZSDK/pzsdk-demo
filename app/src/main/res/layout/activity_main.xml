@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E90FF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="login"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/createNewAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="createNewAccount"
+            android:text="new_account" />
+
+        <Button
+            android:id="@+id/switchAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="switchAccount"
+            android:text="switch" />
+
+        <Button
+            android:id="@+id/bind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="bind"
+            android:text="bind" />
+
+        <Button
+            android:id="@+id/unbind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="unbind"
+            android:text="unbind" />
+
+        <Button
+            android:id="@+id/update_bind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="update_bind"
+            android:text="update_bind" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/socialLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="socialLogin"
+            android:text="social_Login" />
+
+        <Button
+            android:id="@+id/products"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="products"
+            android:text="products" />
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="pay"
+            android:text="pay" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="logout"
+            android:text="logout" />
+
+        <Button
+            android:id="@+id/bound"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="bound"
+            android:text="bound" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/notifyEnable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="notifyEnable"
+            android:text="notify_Enable" />
+        <Button
+            android:id="@+id/pushGeneral"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="pushGeneral"
+            android:text="push_General" />
+
+        <Button
+            android:id="@+id/pushSpecial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="pushSpecial"
+            android:text="push_Special" />
+
+        <Button
+            android:id="@+id/showSurveys"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="showSurveys"
+            android:text="show_Surveys" />
+
+        <Button
+            android:id="@+id/showFAQs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="showFAQs"
+            android:text="showFAQs" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/notify_setting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="notify_setting"
+            android:text="notify_setting" />
+
+        <Button
+            android:id="@+id/storeView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="storeView"
+            android:text="store_View" />
+
+        <Button
+            android:id="@+id/connected"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="connected"
+            android:text="connected" />
+
+        <Button
+            android:id="@+id/friends"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="friends"
+            android:text="friends" />
+
+        <Button
+            android:id="@+id/shareLink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="shareLink"
+            android:text="share_link" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sharePhoto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="sharePhoto"
+            android:text="share_photo" />
+
+        <Button
+            android:id="@+id/invite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="invite"
+            android:text="invite" />
+
+        <Button
+            android:id="@+id/requestNone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="requestNone"
+            android:text="request_None" />
+
+        <Button
+            android:id="@+id/requestUsers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="requestUsers"
+            android:text="request_Users" />
+
+        <Button
+            android:id="@+id/requestNonUsers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:tag="requestNonUsers"
+            android:text="request_NonUsers" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/showInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:tag="showInfo" />
+    </LinearLayout>
+</LinearLayout>
